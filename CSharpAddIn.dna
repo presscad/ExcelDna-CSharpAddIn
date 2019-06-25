@@ -1,0 +1,65 @@
+﻿<DnaLibrary RuntimeVersion="v4.0" Name="Excel-DNA Tools 4.0 Library">
+  <ExternalLibrary Path="CSharpAddIn.dll" ExplicitExports="false" LoadFromBytes="true" Pack="false" />
+  <Reference Path="DotNet.Utilities.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="SharpSxwnl.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="RDotNet.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="RDotNet.Graphics.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="RDotNet.NativeLibrary.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="Log4Net.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="ICSharpCode.SharpZipLib.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="itextsharp.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="OWC10Chart.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <Reference Path="zxing.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  
+  <!-- Some images that can be used in the Ribbon ui -->
+  <Image Name="Back" Path="res\Back.png" Pack="true" />
+  <!--Image Name="Bell" Path="res\Bell.png" Pack="true" -->
+  <!--Image Name="Book" Path="res\Book.png" Pack="true" -->
+  <!--Image Name="Bird" Path="res\Bird.png" Pack="true" -->
+  <!--Image Name="Calc" Path="res\Calc.png" Pack="true" -->
+  <Image Name="Calendar" Path="res\Calendar.png" Pack="true" />
+  <!--Image Name="Clock" Path="res\Clock.png" Pack="true" -->
+  <Image Name="Close" Path="res\Close.png" Pack="true" />
+  <Image Name="DataLink" Path="res\DataLink.png" Pack="true" />
+  <!--Image Name="Disk" Path="res\Disk.png" Pack="true" -->
+  <!--Image Name="Eagle" Path="res\Eagle.png" Pack="true" -->
+  <!--Image Name="Event" Path="res\Event.png" Pack="true" -->
+  <Image Name="Exit" Path="res\Exit.png" Pack="true" />
+  <Image Name="False" Path="res\False.png" Pack="true" />
+  <!--Image Name="Folder" Path="res\Folder.png" Pack="true" -->
+  <!--Image Name="Foot" Path="res\Foot.png" Pack="true" -->
+  <Image Name="InitR" Path="res\InitR.png" Pack="true" />
+  <!--Image Name="Key" Path="res\key.png" Pack="true" -->
+  <Image Name="Light" Path="res\Light.png" Pack="true" />
+  <!--Image Name="Lock" Path="res\Lock.png" Pack="true" -->
+  <!--Image Name="Net" Path="res\Net.png" Pack="true" -->
+  <Image Name="Open" Path="res\Open.png" Pack="true" />
+  <Image Name="Process" Path="res\Process.png" Pack="true" />
+  <!--Image Name="Protect" Path="res\Protect.png" Pack="true" -->
+  <Image Name="Script" Path="res\Script.png" Pack="true" />
+  <Image Name="Set" Path="res\Set.png" Pack="true" />
+  <Image Name="TaskPane" Path="res\TaskPane.png" Pack="true" />
+  <Image Name="True" Path="res\True.png" Pack="true" />
+  <!--Image Name="User" Path="res\User.png" Pack="true" -->
+  <Image Name="ZxingEAN" Path="res\ZxingEAN.png" Pack="true" />
+  <Image Name="ZxingFMT" Path="res\ZxingFMT.png" Pack="true" />
+  <Image Name="ZxingPDF" Path="res\ZxingPDF.png" Pack="true" />
+  <Image Name="ZxingQRD" Path="res\ZxingQRD.png" Pack="true" />
+  <Image Name="ZxingMID" Path="res\ZxingMID.png" Pack="true" />
+
+  <!-- 
+       The RuntimeVersion attribute above allows two settings:
+       * RuntimeVersion="v2.0" - for .NET 2.0, 3.0 and 3.5
+       * RuntimeVersion="v4.5" - for .NET 4 and 4.5
+
+       Additional referenced assemblies can be specified by adding 'Reference' tags. 
+       These libraries will not be examined and registered with Excel as add-in libraries, 
+       but will be packed into the -packed.xll file and loaded at runtime as needed.
+       For example:
+       
+       <Reference Path="Another.Library.dll" Pack="true" />
+  
+       Excel-DNA also allows the xml for ribbon UI extensions to be specified in the .dna file.
+       See the main Excel-DNA site at http://excel-dna.net for downloads of the full distribution.
+  -->
+</DnaLibrary>
